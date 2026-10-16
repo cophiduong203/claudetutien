@@ -25,7 +25,7 @@ public final class CultivationHud {
 		TuTienConfig cfg = TuTienConfig.get();
 		MinecraftClient mc = MinecraftClient.getInstance();
 		if (!cfg.hudEnabled || !ClientCultivationState.synced) return;
-		if (mc.player == null || mc.options.hudHidden || mc.getDebugHud().shouldShowDebugHud()) return;
+		  if (mc.player == null || mc.options.hudHidden || mc.options.debugEnabled) return;
 
 		TextRenderer tr = mc.textRenderer;
 		int level = ClientCultivationState.level;
