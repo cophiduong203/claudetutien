@@ -1,0 +1,30 @@
+{
+  "realm.hytur_tu_tien.luyen_khi": "Luyện Khí",
+  "realm.hytur_tu_tien.truc_co": "Trúc Cơ",
+  "realm.hytur_tu_tien.kim_dan": "Kim Đan",
+  "realm.hytur_tu_tien.nguyen_anh": "Nguyên Anh",
+  "realm.hytur_tu_tien.hoa_than": "Hóa Thần",
+  "realm.hytur_tu_tien.luyen_hu": "Luyện Hư",
+  "realm.hytur_tu_tien.hop_the": "Hợp Thể",
+  "realm.hytur_tu_tien.dai_thua": "Đại Thừa",
+  "realm.hytur_tu_tien.do_kiep": "Độ Kiếp",
+  "realm.hytur_tu_tien.chan_tien": "Chân Tiên",
+
+  "key.categories.hytur_tu_tien": "Hytur Tu Tiên",
+  "key.hytur_tu_tien.toggle_hud": "Bật/tắt HUD tu vi",
+
+  "hud.hytur_tu_tien.realm": "%1$s - Tầng %2$s",
+  "hud.hytur_tu_tien.qi": "Tu vi: %1$s / %2$s",
+  "hud.hytur_tu_tien.max": "Tu vi: Cực hạn",
+
+  "title.hytur_tu_tien.breakthrough": "ĐỘT PHÁ THÀNH CÔNG",
+  "subtitle.hytur_tu_tien.breakthrough": "%1$s Tầng %2$s",
+  "message.hytur_tu_tien.gain_qi": "+%1$s tu vi",
+
+  "command.hytur_tu_tien.status": "Cảnh giới: %1$s tầng %2$s (tầng %3$s/100) | Tu vi: %4$s / %5$s",
+  "command.hytur_tu_tien.status_max": "Cảnh giới: %1$s tầng %2$s (tầng %3$s/100) | Đã đạt cực hạn",
+  "command.hytur_tu_tien.help": "/canhgioi - xem cảnh giới và tu vi\n/canhgioi settang <1-100> - đặt tầng (OP)\n/canhgioi addqi <số> - thêm tu vi (OP)\n/canhgioi reset - đặt lại tiến độ (OP)\n/canhgioi test breakthrough - thử hiệu ứng đột phá (OP)",
+  "command.hytur_tu_tien.settang": "Đã đặt tầng tu vi thành %1$s.",
+  "command.hytur_tu_tien.addqi": "Đã thêm %1$s tu vi.",
+  "command.hytur_tu_tien.reset": "Đã đặt lại tiến độ tu tiên."
+}

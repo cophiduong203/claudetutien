@@ -1,0 +1,30 @@
+{
+  "realm.hytur_tu_tien.luyen_khi": "Qi Condensation",
+  "realm.hytur_tu_tien.truc_co": "Foundation Establishment",
+  "realm.hytur_tu_tien.kim_dan": "Golden Core",
+  "realm.hytur_tu_tien.nguyen_anh": "Nascent Soul",
+  "realm.hytur_tu_tien.hoa_than": "Spirit Transformation",
+  "realm.hytur_tu_tien.luyen_hu": "Void Refinement",
+  "realm.hytur_tu_tien.hop_the": "Body Integration",
+  "realm.hytur_tu_tien.dai_thua": "Mahayana",
+  "realm.hytur_tu_tien.do_kiep": "Tribulation Transcendence",
+  "realm.hytur_tu_tien.chan_tien": "True Immortal",
+
+  "key.categories.hytur_tu_tien": "Hytur Cultivation",
+  "key.hytur_tu_tien.toggle_hud": "Toggle Cultivation HUD",
+
+  "hud.hytur_tu_tien.realm": "%1$s - Stage %2$s",
+  "hud.hytur_tu_tien.qi": "Qi: %1$s / %2$s",
+  "hud.hytur_tu_tien.max": "Qi: Peak",
+
+  "title.hytur_tu_tien.breakthrough": "BREAKTHROUGH SUCCESSFUL",
+  "subtitle.hytur_tu_tien.breakthrough": "%1$s Stage %2$s",
+  "message.hytur_tu_tien.gain_qi": "+%1$s Qi",
+
+  "command.hytur_tu_tien.status": "Realm: %1$s stage %2$s (level %3$s/100) | Qi: %4$s / %5$s",
+  "command.hytur_tu_tien.status_max": "Realm: %1$s stage %2$s (level %3$s/100) | Peak reached",
+  "command.hytur_tu_tien.help": "/canhgioi - show realm and Qi\n/canhgioi settang <1-100> - set level (OP)\n/canhgioi addqi <amount> - add Qi (OP)\n/canhgioi reset - reset progress (OP)\n/canhgioi test breakthrough - preview breakthrough effect (OP)",
+  "command.hytur_tu_tien.settang": "Cultivation level set to %1$s.",
+  "command.hytur_tu_tien.addqi": "Added %1$s Qi.",
+  "command.hytur_tu_tien.reset": "Cultivation progress reset."
+}
