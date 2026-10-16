@@ -1,0 +1,44 @@
+name: Build Hytur Tu Tien
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Check project configuration
+        run: |
+          chmod +x gradlew
+          ./gradlew --version
+          ./gradlew properties -q | grep -E "^(version|group|archivesBaseName):"
+
+      - name: Clean build
+        run: ./gradlew clean build --stacktrace
+
+      - name: Verify jar exists
+        run: |
+          ls -la build/libs
+          test -s build/libs/hytur-tu-tien-3.0.0.jar
+
+      - name: Upload remapped jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: HyturTuTien-3.0
+          path: build/libs/hytur-tu-tien-3.0.0.jar
+          if-no-files-found: error
